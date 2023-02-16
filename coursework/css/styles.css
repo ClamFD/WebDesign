@@ -17,7 +17,7 @@ a:active { text-decoration: none; color:lightgrey}
 
 .gallery {width: 50%; height: auto}
 
-table {  border: 1px solid; margin: 10%; width: 80%;}
+table {  border: 1px solid; margin: 0 10% 0 10%; width: 80%;}
 
 td {width: 12.5%; font-weight:bold; border: 2px solid lightgray; padding: 4px}
 
