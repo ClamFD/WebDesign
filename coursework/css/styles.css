@@ -2,8 +2,15 @@
 header {font-family: Verdana; color:purple; padding:3 0 0 30; overflow: auto;}
 .headimg {float: left; display: inline;}
 
+#hometext {color:white; float: right; margin: 50 50 0 0 ;text-align: right; text-shadow: 2px 2px 5px black; width: 700;}
+#hometext h1 {font-size: 50;}
+#hometext h2 {float: right; font-size:35; margin: 0;; width: 213;}
+#hometext h2:hover {color: rgb(112, 33, 134)}
+#hometext p {float: right; margin: 0;; width: 700;}
 
-body {font-family: verdana; margin: 0px;}
+footer {color: white; margin-top: 500px; padding: 10 0  50 10; background-color: rgb(29, 29, 29);}
+
+body {font-family: verdana; margin: 0px; background-color: rgb(39, 39, 39);}
 
 nav {background-color:transparent; height: 80px; padding:0px; width:80%; margin: 0px;float: right;font-weight: 550;}
 
@@ -17,18 +24,19 @@ a:active { text-decoration: none; color:lightgrey}
 
 .gallery {width: 50%; height: auto}
 
-table {  border: 1px solid; margin: 0 10% 0 10%; width: 80%;}
+table {  border: 2px solid white; margin: 50 10% 0 10%; width: 80%;}
 
 td {width: 12.5%; font-weight:bold; border: 2px solid lightgray; padding: 4px}
 
 tr {margin: 3px;}
-
+.days { background-color: black; color:white;}
 tr:nth-child(even) {background-color: #dddddd;}
+tr:nth-child(2n+3) {background-color: #ffffff;}
 
 .sub{color:grey; font-size: 14px; font-weight:normal;}
 
 th{font-size: 18px;}
-.days { background-color: black; color:white;}
+
 
 #events td:hover {border-style: solid; border-width: 2px; border-color: purple;}
 
