@@ -190,14 +190,20 @@ ul{
     display: none;
 }
   
-.radimg{
+
+.ptext img{
     cursor: pointer;
     height: 30px;
     width: 30px;
-  }
-
-.radimg:hover{
-    border: solid rgb(112, 33, 134) 3px;
-    border-radius: 50%
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    border-color: transparent;
 }
-  
+                                                                                                    
+.ptext img:hover{
+    border-style: solid;
+    border-width: 3px;
+    border-color: purple;
+    border-radius: 50%;
+}
