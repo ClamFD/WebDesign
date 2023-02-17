@@ -195,4 +195,9 @@ ul{
     height: 30px;
     width: 30px;
   }
+
+.radimg:hover{
+    border: solid rgb(112, 33, 134) 3px;
+    border-radius: 50%
+}
   
