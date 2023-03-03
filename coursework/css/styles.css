@@ -40,6 +40,7 @@ footer {
     margin-top: 500px;
     padding: 10 0  50 10;
     background-color: rgb(29, 29, 29);
+    position: absolute bottom 0;
 }
 
 body {
@@ -234,3 +235,59 @@ ul{
 #selectedSize{
     border: solid rgb(112, 33, 134) 2px;
 }
+
+/* -----------------contact----------------- */
+
+.contactleft{
+    width: 15%;
+    height: 900px;
+    background-color: rgb(29, 29, 29);
+    float: left;
+}
+
+.contactform{
+    width: 60%;
+    height: 900px;
+    background-color: rgb(51, 51, 51);
+    float: left;
+}
+
+.contactright{
+    width: 22.89%;
+    height: 900px;
+    background-color: rgb(51, 51, 51);
+    float: left;
+    padding: 20;
+}
+
+legend{
+    background-color: rgb(112, 33, 134);
+    padding: 10px;
+    color: white;
+    font-size: 12;
+    font-weight: bold;
+}
+
+fieldset{
+    color: white;
+    margin: 15px;
+    padding: 15;
+    margin-top: 35;
+    border-color: lightgray;
+    border-radius: 10px;
+}
+
+input, textarea{
+    margin: 10 0 50 10;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 3px;
+    padding: 5;
+    text-align: top;
+    accent-color: rgb(112, 33, 134);
+}
+
+.twitterh{
+    color: white;
+}
+

@@ -32,27 +32,36 @@
         </nav>
 
         <main>
-            <form>
-                <fieldset>
-                    <legend>Contact Us using the below form</legend>
-                    <label for="name">Name<br></label>
-                    <input type="text" name="name" value=""/><br><br>
+            <div class = "contactleft">
+                <p>div1</p>
+            </div>
+            <div class = "contactform">
+                <form>
+                    <fieldset>
+                        <legend>Contact Us using the below form:</legend>
+                        <label for="name">Name<br></label>
+                        <input type="text" name="name" value=""/><br><br>
 
-                    <label for="email">Email address<br></label>
-                    <input type="text" name="email" value=""/><br><br>
+                        <label for="email">Email address:<br></label>
+                        <input type="text" name="email" value=""/><br><br>
 
-                    <label for="html">Non-member</label>
-                    <input type="radio" value="Non-member">
-                    <label for="html">Member</label>
-                    <input type="radio" value="member"><br><br>
+                        <label for="html">Non-member:</label>
+                        <input type="radio" value="Non-member" checked="checked">
+                        <label for="html">Member:</label>
+                        <input type="radio" value="member"><br><br>
 
-                    <label for="reason">Why are you contacting us<br></label>
-                    <input type="text" style= "height:100px; width:500px;" name="reason" value=""/><br><br>
+                        <label for="reason">Why are you contacting us:<br></label>
+                        <textarea rows="6" cols="50" name="reason" value=""></textarea><br><br>
 
-                    <label for="files">file attachments</label>
-                    <input type="file" name="files" value=""/><br><br>
-                </fieldset>
-            </form>    
+                        <label for="files">file attachments:</label>
+                        <input type="file" name="files" value=""/><br><br>
+                    </fieldset>
+                </form>
+            </div>
+            <div class = "contactright">
+                <h2 class= "twitterh">Or message us on Twitter</h2>
+                <a class="twitter-timeline" data-height="662" data-theme="dark" href="https://twitter.com/RGU_Racing?ref_src=twsrc%5Etfw">Tweets by RGU_Racing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>    
         </main>
 
         <aside> </aside>
