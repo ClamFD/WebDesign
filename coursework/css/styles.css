@@ -46,7 +46,7 @@ footer {
 body {
     font-family: verdana;
     margin: 0px;
-    background-color: rgb(39, 39, 39);
+    background: linear-gradient(50deg, rgb(51, 51, 51) 0%, rgba(29, 29, 29) 100%);
 }
 
 nav {background-color:transparent;
@@ -155,16 +155,21 @@ ul{
 }
 /* -----------------product----------------- */
 .productdiv{
-    width: 100%;
+    width: min-content;
     height: 800px;
     display: flex;
 }
 
+.hoodieimg{
+    width: min-content;
+    padding: 60;
+}
+
 .pimg{
     height: 700px;
-    margin: 60 0 0 60;
-    border: solid white 20px;
-    border-radius: 15px;
+    border: solid #dddddd 20px;
+    border-radius: 30px;
+    background-color: #dddddd;
 }
 
 .ptext{
@@ -206,4 +211,27 @@ ul{
     border-width: 3px;
     border-color: purple;
     border-radius: 50%;
+}
+
+.lllll {
+    font-size: 10;
+    float: left;
+    border: solid white 2px;
+    border-radius: 5px;
+    width: 100;
+    margin: 15;
+}
+.lllll p{
+    font-size: 15;
+    color: white;
+}
+.sizes{
+    height: 100;
+    padding: 0;
+    width: max-content;
+    margin: 0 0 0 310;
+}
+
+#selectedSize{
+    border: solid rgb(112, 33, 134) 2px;
 }

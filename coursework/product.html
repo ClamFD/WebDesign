@@ -1,7 +1,9 @@
 <html>
     <head>
-        <title> Title </title>
+        <title>Shop - RGU motorsport</title>
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" href="favicon.ico" />
+        <script src="scripts/script.js"></script>
         <style>
             .top{background: url(images/cars2.png); background-repeat: no-repeat; background-size: cover; height: 120;}
         </style>
@@ -21,7 +23,7 @@
                     <a href="event_calendar.html">Events</a>
                     <a href="img_gallery.html">Images</a> 
                     <a href="contact_us.html">Contact us</a>
-                    <a class = "thispage" href="product.html">Product</a> 
+                    <a class="thispage" href="product.html">Shop</a> 
                     <a href="page7.html">Page 7</a> 
                     <a href="page8.html">Page 8 </a>
                 </ul>    
@@ -31,18 +33,36 @@
         
         <main>
             <div class = "productdiv">
-                <img id = "testimg" class = "pimg" src = "images/hoodie.jpg" alt = "plain black hoodie">
+                <div class ="hoodieimg">
+                    <img class="pimg" src="images/hoodie-back-logo.png">
+                </div>
                 <div class = "ptext">
                     <h1>Motorsport hoodie</h1>
                     <p>£45.00</p>
-                    <label>
-                        <input class = "rad" type="radio" checked>
-                        <img id = "radib" src="images/black.png" alt="Option 1">
-                    </label> 
-                    <label>
-                        <input class = "rad" type="radio">
-                        <img id = "radiw" src="images/white.png" alt="Option 2">
-                    </label>
+                    <br>
+                    <p> - - - - - - - Size - - - - - - - </p>
+                    <div class="sizes">
+                        <div class = "lllll"><p>X-Small</p></div>
+                        <div class = "lllll"><p>Small</p></div>
+                        <div class = "lllll"><p>Medium</p></div>
+                        <div class = "lllll"><p>Large</p></div>
+                        <div class = "lllll" id="selectedSize"><p>X-Large</p></div>
+                    </div>
+                    <table id="events">
+                        <tr class="days">
+                        <th>measurement (in)</th><th>xs</th><th>s</th><th>m</th><th>l</th><th>xl</th>
+                        </tr>
+                        <tr>
+                        <th>chest</th><td>48</td><td>50</td><td>52</td><td>54</td><td>56</td>
+                        </tr>
+                        <tr>
+                        <th>length</th><td>25</td><td>26</td><td>27</p></td><td>28</td><td>29</td>
+                        </tr>               
+                    </table>
+
+
+
+
                 </div>
             </div>
         </main>
