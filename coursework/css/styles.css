@@ -1,13 +1,14 @@
-
 header {
     font-family: Verdana;
     color:purple;
     padding:3 0 0 30;
     overflow: auto;
+    margin: 0;
 }
 .headimg {
     float: left;
     display: inline;
+    margin: 8;
 }
 
 #hometext {
@@ -15,16 +16,16 @@ header {
     float: right;
     margin: 50 50 0 0;
     text-align: right;
-    width: 700;
+    width: 750;
 }
 #hometext h1 {
-    font-size: 50;
+    font-size: 60;
 }
 #hometext h2 {
     float: right;
-    font-size:35;
+    font-size:50;
     margin: 0; 
-    width: 213;
+    width: max-content;
 }
 #hometext h2:hover {
     color: rgb(112, 33, 134);
@@ -32,6 +33,7 @@ header {
 #hometext p {
     float: right;
     margin: 0;
+    font-size: 15;
     width: 700;
 }
 
@@ -59,7 +61,7 @@ nav {background-color:transparent;
 }
 
 nav a {float:left;
-    height:65px;
+    height:120px;
     width:12.4%;
     text-align:center;
     padding-top:55px;
@@ -67,7 +69,7 @@ nav a {float:left;
 
 .thispage{
     border-bottom: solid 5px rgb(112, 33, 134);
-    height: 60;
+    height: 120;
     border-radius: 1;
     }
  
@@ -88,26 +90,28 @@ a:active {
     color:lightgrey
 }
 
-.gallery {
-    width: 50%;
+.gallery-img {
+    width: 100%;
     height: auto;
+    margin: 20;
 }
 
 table {
     border: 2px solid white;
+    background-color: white;
     margin: 50 10% 0 10%;
     width: 80%;
+    border-collapse: separate;
+    border-spacing: 1px;
 }
 
 td {width: 12.5%;
     font-weight: bold;
-    border: 2px solid lightgray;
-    padding: 4px;
+    border: 2px solid lightgrey);
+    padding: 5px;
+    margin: 5px;
 }
 
-tr {
-    margin: 3px;
-}
 .days {
     background-color: black;
     color:white;
@@ -129,12 +133,13 @@ th{
     font-size: 18px;
 }
 
-
 #events td:hover {
     border-style: solid;
     border-width: 2px;
     border-color: purple;
+    padding: 3;
 }
+
 #events th:hover {
     background-color: purple;
      color:white;
@@ -290,4 +295,3 @@ input, textarea{
 .twitterh{
     color: white;
 }
-
