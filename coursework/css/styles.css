@@ -17,6 +17,7 @@ header {
     margin: 50 50 0 0;
     text-align: right;
     width: 750;
+    display: inline;
 }
 #hometext h1 {
     font-size: 60;
@@ -37,12 +38,41 @@ header {
     width: 700;
 }
 
+.login{
+    margin: 40 0 0 60;
+    width: 278;
+    height: 175;
+    background-color: rgba(0, 0, 0, 0.158);
+    display: inline;
+
+}
+
+.log{
+    margin: 10;
+
+}
+
+.button2{
+    width: 224;
+    color: white;
+    background-color: rgb(112, 33, 134);
+    border: 1px solid rgb(29, 29, 29);
+    margin: 5 0 10 10;
+    border-radius: 3px;
+}
+.form1{
+    width: min-content;
+    display: inline;
+}
 footer {
     color: white;
-    margin-top: 500px;
+    margin-top: 0px;
     padding: 10 0  50 10;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(19, 19, 19);
     position: absolute bottom 0;
+}
+.copyright{
+    margin: 20;
 }
 
 body {
@@ -188,6 +218,7 @@ ul{
     color: white;
     display: block;
     line-height: 0;
+    margin: 30;
 }
 .ptext p{ 
     display: block;
@@ -225,6 +256,7 @@ ul{
     border-radius: 5px;
     width: 100;
     margin: 15;
+    padding-top: 10;
 }
 .lllll p{
     font-size: 15;
@@ -245,21 +277,22 @@ ul{
 
 .contactleft{
     width: 15%;
-    height: 900px;
+    height: 1000px;
     background-color: rgb(29, 29, 29);
     float: left;
 }
 
 .contactform{
     width: 60%;
-    height: 900px;
+    height: 1000px;
     background-color: rgb(51, 51, 51);
     float: left;
+    padding: 30;
 }
 
 .contactright{
-    width: 22.89%;
-    height: 900px;
+    width: 25%;
+    height: 1000px;
     background-color: rgb(51, 51, 51);
     float: left;
     padding: 20;
@@ -295,3 +328,16 @@ input, textarea{
 .twitterh{
     color: white;
 }
+
+.form_outcome{
+    color:white;
+}
+
+.button{
+    color: white;
+    background-color: rgb(112, 33, 134);
+    border: 1px solid rgb(29, 29, 29);
+    margin: 0 0 10 30;
+    border-radius: 3px;
+}
+
