@@ -9,3 +9,12 @@ function log_in(){
     counter += 1;
 }
     
+function changeImage() {
+    var image = document.getElementById("pimg");
+    if (image.src.match("images/hoodie-back-logo.png")) {
+        image.src = "images/hoodie-front-logo.png";}
+    else {
+        image.src = "images/hoodie-back-logo.png";
+    }
+}
+

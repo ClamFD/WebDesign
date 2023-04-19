@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Home - RGU motorsport</title>
@@ -7,17 +8,25 @@
         <link rel="shortcut icon" href="favicon.ico" />
         <script src="scripts/script.js"></script>
         <style>
-            .top{background: url(images/cars2.png); background-repeat: no-repeat; background-size: cover; height: 750;}
+            .top{background: url(images/cars2.png); background-repeat: no-repeat; background-size: cover; height: 750px;}
         </style>
     </head>
-
-    <body>
-        <div class = "top">
-            <div class = "bar">
+<!--
+    Threat Model
+    Threat Source: External
+    Threat Agent: AI
+    Threat Intention: Intentional
+    Threat Motivation: Hack accounts
+    Threat Impact: make changes to someones account or steal their info
+    Threat Mitigation: Login validation, 2FA, password max attempts
+-->
+<body>
+    <div class = "top">
+        <div class = "bar">
             <a href="https://www.rguunion.co.uk/getinvolved/societies/7091/" target="_blank">
                 <img class = "logo" src="images/cartext.png">
             </a>
-            
+        
             <nav>            
                 <ul>
                     <a class = "thispage" href="index.html">Home</a>
@@ -30,30 +39,32 @@
                     <a href="page8.html">Page 8 </a>
                 </ul>    
             </nav>
-            <form class = "form1">
-                <fieldset class="login">
-                    <input type="text" class="log" placeholder="login" name="login" value=""/>
-                    <input type="password" class="log" placeholder="password"name="password" value=""/>
-                    <button type="button" class="button2" onclick="log_in()">Login</button>
-                </fieldset>
-            </form>
-                <div id = "hometext">
-                    <h1>OUR CURRENT PROJECT</h1>
-                    <a href="http://www.swiftcooper.com/fb89.html" target="_blank"><h2>Swift FB89</h2></a>
-                    <p>Formula ford car from 1989</p>
-                </div>
+        </div>
+        <div>
+        <form class = "form1">
+            <fieldset class="login">
+                <input type="text" class="log" placeholder="login" name="login" value=""/>
+                <input type="password" class="log" placeholder="password"name="password" value=""/>
+                <button type="button" class="button2" onclick="log_in()">Login</button>
+            </fieldset>
+        </form>
+            <div id = "hometext">
+                <h1>OUR CURRENT PROJECT</h1>
+                <a href="http://www.swiftcooper.com/fb89.html" target="_blank"><h2>Swift FB89</h2></a>
+                <p>Formula ford car from 1989</p>
             </div>
-        </div>        
-        <main>
-            <div>
-                <h3> Welcome to the motorsport society from Robert Gordons University</h3>
-                <p>this is a paragraph</p>
-            </div>
-        </main>
+        </div>
+    </div>        
+    <main>
+        <div>
+            <h3> Welcome to the motorsport society from Robert Gordons University</h3>
+            <p>this is a paragraph</p>
+        </div>
+    </main>
 
-        <aside> </aside>
+    <aside> </aside>
 
-        <footer>
-            <footer><p class = "copyright">Copyright Callum Davidson 2207263</p></footer>
-    </body>
+    <footer>
+        <footer><p class = "copyright">Copyright Callum Davidson 2207263</p></footer>
+</body>
 </html>

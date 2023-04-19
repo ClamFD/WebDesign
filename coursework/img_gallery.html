@@ -14,7 +14,7 @@
         <div class = "top">
             <div class = "bar">
             <a href="https://www.rguunion.co.uk/getinvolved/societies/7091/" target="_blank">
-                <img class = "logo" src="images/cartext.png">
+                <img class = "logo" src="images/cartext.png" alt="logo">
             </a>
             
             <nav>            
@@ -35,41 +35,60 @@
             <div id="img-gallery" class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <img src="images/image1.png" class="gallery-img"/>
-                        <img src="images/image2.png" class="gallery-img"/>
-                        <img src="images/image3.jpg" class="gallery-img"/>
-                        <img src="images/image7.jpg" class="gallery-img"/>
-                        <img src="images/image8.jpg" class="gallery-img"/>
-                        <img src="images/image9.jpg" class="gallery-img"/>
-                        <img src="images/image4.jpg" class="gallery-img"/>
-                        <img src="images/image5.jpg" class="gallery-img"/>
-                        <img src="images/image6.jpg" class="gallery-img"/>
+                        <img src="images/image1.png" class="gallery-img" alt="car image 1"/>
+                        <img src="images/image2.png" class="gallery-img" alt="car image 2"/>
+                        <img src="images/image3.jpg" class="gallery-img" alt="car image 3"/>
+                        <img src="images/image7.jpg" class="gallery-img" alt="car image 7"/>
+                        <img src="images/image8.jpg" class="gallery-img" alt="car image 8"/>
+                        <img src="images/image9.jpg" class="gallery-img" alt="car image 9"/>
+                        <img src="images/image4.jpg" class="gallery-img" alt="car image 4"/>
+                        <img src="images/image5.jpg" class="gallery-img" alt="car image 5"/>
+                        <img src="images/image6.jpg" class="gallery-img" alt="car image 6"/>
                     </div>
                     <div class="col-sm">
-                        <img src="images/image4.jpg" class="gallery-img"/>
-                        <img src="images/image5.jpg" class="gallery-img"/>
-                        <img src="images/image6.jpg" class="gallery-img"/>
-                        <img src="images/image1.png" class="gallery-img"/>
-                        <img src="images/image2.png" class="gallery-img"/>
-                        <img src="images/image3.jpg" class="gallery-img"/>
-                        <img src="images/image7.jpg" class="gallery-img"/>
-                        <img src="images/image8.jpg" class="gallery-img"/>
-                        <img src="images/image9.jpg" class="gallery-img"/>
+                        <img src="images/image4.jpg" class="gallery-img" alt="car image 4"/>
+                        <img src="images/image5.jpg" class="gallery-img" alt="car image 5"/>
+                        <img src="images/image6.jpg" class="gallery-img" alt="car image 6"/>
+                        <img src="images/image1.png" class="gallery-img" alt="car image 1"/>
+                        <img src="images/image2.png" class="gallery-img" alt="car image 2"/>
+                        <img src="images/image3.jpg" class="gallery-img" alt="car image 3"/>
+                        <img src="images/image7.jpg" class="gallery-img" alt="car image 7"/>
+                        <img src="images/image8.jpg" class="gallery-img" alt="car image 8"/>
+                        <img src="images/image9.jpg" class="gallery-img" alt="car image 9"/>
                     </div>
                     <div class="col-sm">
-                        <img src="images/image7.jpg" class="gallery-img"/>
-                        <img src="images/image8.jpg" class="gallery-img"/>
-                        <img src="images/image9.jpg" class="gallery-img"/>
-                        <img src="images/image4.jpg" class="gallery-img"/>
-                        <img src="images/image5.jpg" class="gallery-img"/>
-                        <img src="images/image6.jpg" class="gallery-img"/>
-                        <img src="images/image1.png" class="gallery-img"/>
-                        <img src="images/image2.png" class="gallery-img"/>
-                        <img src="images/image3.jpg" class="gallery-img"/>
+                        <img src="images/image7.jpg" class="gallery-img" alt="car image 7"/>
+                        <img src="images/image8.jpg" class="gallery-img" alt="car image 8"/>
+                        <img src="images/image9.jpg" class="gallery-img" alt="car image 9"/>
+                        <img src="images/image4.jpg" class="gallery-img" alt="car image 4"/>
+                        <img src="images/image5.jpg" class="gallery-img" alt="car image 5"/>
+                        <img src="images/image6.jpg" class="gallery-img" alt="car image 6"/>
+                        <img src="images/image1.png" class="gallery-img" alt="car image 1"/>
+                        <img src="images/image2.png" class="gallery-img" alt="car image 2"/>
+                        <img src="images/image3.jpg" class="gallery-img" alt="car image 3"/>
                     </div>
                     </div>
                 </div>
-            
+                <script>
+                        const galleryImages = document.querySelectorAll('.gallery-img');
+
+                        for (let i = 0; i < galleryImages.length; i++) {
+                        galleryImages[i].addEventListener('mouseover', function () {
+                            this.style.border = 'solid blue 2px';
+                            for (let j = 0; j < galleryImages.length; j++) {
+                            if (galleryImages[j] != this) {
+                                galleryImages[j].style.filter = 'grayscale(100%) blur(2px)';
+                            }
+                            }
+                        });
+                        galleryImages[i].addEventListener('mouseout', function () {
+                            this.style.border = 'none';
+                            for (let j = 0; j < galleryImages.length; j++) {
+                            galleryImages[j].style.filter = 'none';
+                            }
+                        });
+                        }
+                </script>
         </main>
 
         <aside> </aside>
